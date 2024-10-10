@@ -1,0 +1,9 @@
+.spacer {
+    flex: 1 1 auto; /* This will push the nav links to the right */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 8px; /* Add horizontal margin (left and right) */
+  }
+  
