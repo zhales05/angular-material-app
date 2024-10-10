@@ -2,3 +2,33 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+:root {
+    --midnight-blue: #145da0;
+    --dark-blue: #0c2d48;
+    --blue: #2e8bc0;
+    --baby-blue: #b1d4e0;
+
+    --emerald-green: #4CAF50;
+    --lime-green: #8BC34A;
+    --forest-green: #228B22;
+    --yellow: #FFEB3B;
+    --red: #F44336;
+}
+
+.button-primary {
+    background-color: var(--midnight-blue);
+    color: white;
+}
+
+.button-secondary {
+    background-color: var(--blue);
+    color: white;
+}
+
+.alert-error {
+    background-color: var(--red);
+    color: white;
+}
+

@@ -1,3 +1,10 @@
+.logo {
+  height: 40px; 
+  width: auto;  
+  margin-right: 16px; 
+  padding: 8px 0; /* Add padding to the top and bottom */
+}
+
 .spacer {
     flex: 1 1 auto; /* This will push the nav links to the right */
   }
@@ -6,4 +13,9 @@
     text-decoration: none; /* Remove underline from links */
     margin: 0 8px; /* Add horizontal margin (left and right) */
   }
+
+mat-toolbar {
+  background-color: var(--midnight-blue); 
+  color: white; 
+}
   
