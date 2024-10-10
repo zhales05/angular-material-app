@@ -18,17 +18,17 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .button-primary {
-    background-color: var(--midnight-blue);
-    color: white;
+    background-color: var(--midnight-blue) !important;
+    color: white !important;
 }
 
 .button-secondary {
-    background-color: var(--blue);
+    background-color: var(--blue) !important;
     color: white;
 }
 
 .alert-error {
-    background-color: var(--red);
+    background-color: var(--red)!important;
     color: white;
 }
 
