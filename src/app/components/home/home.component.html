@@ -1,7 +1,12 @@
 <p>home works!</p>
 
 <section>
-    <div class="example-button-row">
-      <button class="button-primary" mat-flat-button>Basic</button>
+  <div class="example-button-row">
+    <button class="button-primary" mat-flat-button (click)="fetchData()">
+      Basic
+    </button>
+    <div *ngIf="data">
+      <pre>{{ data | json }}</pre>
     </div>
-  </section>
+  </div>
+</section>
